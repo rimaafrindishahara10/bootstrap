@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>navs</title>
+
+    <!-- bootstrap4 cdn -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <style>
+        .my-item :hover{
+            text-decoration: underline;
+        }
+    </style>
+
+</head>
+<body>
+    <div class="container-fluid">
+        <header class="bg-primary">
+            <div class="row">
+                <div class="col-lg-5">
+                    <h1 class="p-3 text-white text-center">Study With Rima Afrin </h1>
+                </div>
+                <div class="col-lg-7">
+                    <ul class="nav justify-content-center mt-1">
+                        <li class="nav-item my-item"><a class="p-3 text-white nav-link" href="#">Home</a></li>
+                        <li class="nav-item my-item"><a class="p-3 text-white nav-link" href="#">Tutorial</a></li>
+                        <li class="nav-item my-item"><a class="p-3 text-white nav-link" href="#">Lecture Sheet</a></li>
+                        <li class="nav-item my-item"><a class="p-3 text-white nav-link" href="#">Contact Me</a></li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+    </div>
+    <!-- taggolable dynamic tab or pill start -->
+    <div class="others-section m-3">
+        <ul class="nav nav-pills">
+            <li class="nav-item"><a data-toggle="pill" class="nav-link active" href="#edu">Education</a></li>
+            <li class="nav-item"><a data-toggle="pill" class="nav-link" href="#skill">Skill</a></li>
+            <li class="nav-item"><a data-toggle="pill" class="nav-link" href="#hobby">Hobby</a></li>
+        </ul>
+        <div class="tab-content">
+            <div id="edu" class="tab-pane active" ><p>Lorem ipsum dolor Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quam voluptas provident, alias laborum velit dicta soluta eum totam nesciunt excepturi beatae nulla aliquam. Esse nesciunt ipsam voluptates repellendus adipisci! sit, amet consectetur adipisicing elit. Quae nihil harum, sapiente ullam ut necessitatibus?</p></div>
+            <div id="skill"class="tab-pane fade"><p>Lorem ipsum dolor sit, amet consectetur Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae impedit molestiae facere rem repellendus ipsam inventore sit iste eveniet magni! adipisicing elit. Quae nihil harum, sapiente ullam ut necessitatibus?</p></div>
+            <div id="hobby"class="tab-pane fade"><p>Lorem ipsum dolor sit, amet consectetur lorem 30
+                 adipisicing elit. Quae nihil harum, sapiente ullam ut necessitatibus?</p></div>
+
+        </div>
+
+    </div>
+    
+
+    <!-- bootstrap js, jquery, popper -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</body>
+</html>
